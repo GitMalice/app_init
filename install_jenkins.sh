@@ -21,5 +21,5 @@ sudo apt-get install jenkins
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
 echo "--- Jenkins ready on port 8080 ! ---"
-echo "firt password is:"
+echo "first password is:"
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
