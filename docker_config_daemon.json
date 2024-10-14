@@ -1,0 +1,15 @@
+{
+  "storage-driver": "overlay2",
+  "data-root": "/mnt/docker-data",
+  "log-level": "info",
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "3"
+  },
+  "dns": ["8.8.8.8", "8.8.4.4"],
+  "insecure-registries": ["my-insecure-registry.com:5000"],
+  "registry-mirrors": ["https://my-registry-mirror.com"],
+  "iptables": false,
+  "bip": "192.168.1.1/24"
+}
